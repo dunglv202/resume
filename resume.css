@@ -1,3 +1,5 @@
+@import url('http://fonts.cdnfonts.com/css/segoe-ui-4');
+
 :root {
     --theme-color: #fff;
     --pri-blue: dodgerblue;
@@ -255,6 +257,9 @@ footer p {
     #resume-container {
         margin-top: 0;
         padding: 0.5rem 1.5rem;
+    }
+    #sec-summary {
+        text-align: center;
     }
 }
 @media screen and (max-width: 600px) {
