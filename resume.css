@@ -1,4 +1,4 @@
-@import url('https://fonts.cdnfonts.com/css/segoe-ui-4');
+@import url("https://fonts.cdnfonts.com/css/segoe-ui-4");
 
 :root {
     --theme-color: #fff;
@@ -6,7 +6,7 @@
     --pri-black: rgb(43, 43, 43);
     --light-divider: solid 1px rgba(43, 43, 43, 0.1);
     --divider: solid 2px rgba(43, 43, 43, 0.1);
-    --description: rgba(43, 43, 43, 0.8); 
+    --description: rgba(43, 43, 43, 0.8);
 }
 
 /* == GENERAL == */
@@ -30,7 +30,8 @@ a {
     color: initial;
     text-decoration: none;
 }
-a:hover, a:hover span {
+a:hover,
+a:hover span {
     color: var(--pri-blue);
 }
 a span {
@@ -47,7 +48,8 @@ a.external-link:hover::after {
 }
 
 /* === FONT AWESOME === */
-.fas, .fab {
+.fas,
+.fab {
     color: inherit;
 }
 
@@ -58,7 +60,8 @@ ul {
 li {
     padding: 4px 0;
 }
-li > span, li > a > span {
+li > span,
+li > a > span {
     font-weight: 600;
 }
 ul.no-indent {
@@ -90,7 +93,7 @@ ul.inline li:not(:last-child)::after {
 }
 
 #resume-container {
-    max-width: 900px;
+    max-width: 921px;
     margin: 0.5rem auto;
     padding: 3px 1.5cm;
     box-shadow: 0px 1px 7px rgba(43, 43, 43, 0.07);
@@ -115,7 +118,8 @@ nav a {
     font-style: italic;
     font-size: 0.9rem;
 }
-nav a .fas, nav a .fab {
+nav a .fas,
+nav a .fab {
     font-size: 1.2rem;
 }
 
@@ -224,7 +228,6 @@ footer p {
 .fa-heart {
     color: rgb(234, 76, 76);
 }
-
 
 /* === RESPONSIVE === */
 @media screen and (max-width: 1024px) {
